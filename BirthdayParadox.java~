@@ -1,0 +1,19 @@
+class BirthdayParadox {
+  
+  
+  int[] generateArray(int size, int range) {
+    int[] tempArray = new array[size];
+      for (int i = 0; i<tempArray.length; i++) {
+      tempArray[i] = 0 + (int) Math.random()*(range-1));
+}
+}
+
+  int[][] generateAllData(int iterations, int size, int range) {
+    
+    for (int i = 0; i < iterations; i++) {
+    
+      int [][] twoDArray = new int[i][generateArray(size,range)];
+    }
+    
+  }
+  }

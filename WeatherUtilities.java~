@@ -1,0 +1,4 @@
+class WeatherUtilities {
+  
+  static countGoodDays(double[] temperatures, boolean[] sunninessStatus) {
+    

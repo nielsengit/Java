@@ -1,0 +1,44 @@
+class WeatherEntry {
+  
+  private double temperatureInCelsius;
+  private boolean isSunny;
+    
+  public WeatherEntry(double startTemp, boolean startSun) { //is it best practice to match parameter names to the fields?
+    this.temperatureInCelsius = startTemp;
+    this.isSunny = startSun;
+    
+  public getTemperatureCelsius() {
+    return this.termperatureInCelsius;
+  }
+  
+  public isGoodWeather() {
+    if(isSunny == true && temperatureInCelsius > -30) {
+      return true;
+    }
+    else {
+      return false;
+    }
+    public display(boolean isCelsius) {
+      if (isCelcius == true) {
+        System.out.print("It is " + this.temperatureInCelcius + " degrees Celcius and ");
+        if (this.isSunny == true) {
+          System.out.print("and is sunny.");
+          if (this.isGoodWeather == true) {
+            System.out.println("It is a good day.");
+          }
+          else {
+            System.out.println("It is not a good day.");
+          }
+        else (this.isSunny == false) {
+          System.out.print("and is not sunny. It is not a good day.");
+        }
+        }
+        else (isCelcius == false) {       
+            
+            
+      }
+      else 
+        
+      
+      
+  }
